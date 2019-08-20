@@ -6,6 +6,14 @@ The capstone project is to build a decentralized real estate marketplace.
 
 Refer to the [Zokrates howto](./zokrates/howto.md)
 
+## Dependencies
+
+* NodeJS (v10.16.0)
+* Truffle (v5.0.32)
+* Ganache-cli (v6.6.0, core v2.7.0)
+* Web3.js (v1.2.1)
+* Solidity (solc-js v0.5.11)
+
 ## Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
