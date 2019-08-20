@@ -1,8 +1,12 @@
 # Udacity Blockchain Capstone
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
+The capstone project is to build a decentralized real estate marketplace.
 
-# Project Resources
+## Zokrates
+
+Refer to the [Zokrates howto](./zokrates/howto.md)
+
+## Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
