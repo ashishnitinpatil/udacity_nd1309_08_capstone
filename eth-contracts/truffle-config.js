@@ -47,7 +47,7 @@ module.exports = {
       },
       network_id: 4,
       gas: 6700000,
-      gasPrice: 10000000000,  // 10 gwei
+      gasPrice: 21000000000,  // 21 gwei
     },
   },
 

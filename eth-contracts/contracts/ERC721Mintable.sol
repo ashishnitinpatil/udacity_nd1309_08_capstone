@@ -560,11 +560,11 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     }
 
     // TODO: create external getter functions for name, symbol, and baseTokenURI
-    function getName() public view returns(string memory) {
+    function name() public view returns(string memory) {
         return _name;
     }
 
-    function getSymbol() public view returns(string memory) {
+    function symbol() public view returns(string memory) {
         return _symbol;
     }
 

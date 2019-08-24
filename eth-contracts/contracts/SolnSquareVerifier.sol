@@ -1,14 +1,12 @@
 pragma solidity 0.5.11;
 
 import {DecentralandERC721Token} from "./ERC721Mintable.sol";
-import {SquareVerifier} from "./SquareVerifier.sol";
-
 
 
 // TODO define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
 contract SolnSquareVerifier is DecentralandERC721Token {
     // TODO define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
-    SquareVerifier public verifierContract;
+    SquareVerifier verifierContract;
 
     constructor(address verifierAddress) public{
         verifierContract = SquareVerifier(verifierAddress);
@@ -63,4 +61,16 @@ contract SolnSquareVerifier is DecentralandERC721Token {
         _addSolution(to, tokenId, key);
         super.mint(to, tokenId);
     }
+}
+
+
+interface SquareVerifier {
+    function verifyTx(
+        uint[2] calldata a,
+        uint[2][2] calldata b,
+        uint[2] calldata c,
+        uint[2] calldata input
+    )
+        external
+        returns(bool r);
 }
