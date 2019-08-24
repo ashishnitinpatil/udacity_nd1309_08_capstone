@@ -27,6 +27,12 @@ To run truffle tests:
 
     truffle test
 
+## Deploying
+
+- Create a .env file (in [eth-contracts](./eth-contracts)) with `MNEMONIC` & [Infura](https://infura.io) `ENDPOINT_KEY`
+- `truffle compile`
+- `truffle migrate --network rinkeby`
+
 ## Zokrates
 
 Refer to the [Zokrates howto](./zokrates/howto.md)
