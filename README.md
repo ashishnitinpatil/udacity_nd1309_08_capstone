@@ -10,7 +10,7 @@ The capstone project is to build a decentralized real estate marketplace.
 
 2. The deployment log is in [rinkeby_deployment.txt](./rinkeby_deployment.txt)
 
-3. 10 tokens [were minted](https://rinkeby.etherscan.io/address/0x0A86162283818aCe4dB39d9FFE57A777A7935886#events) using different proofs generated via Zokrates
+3. 10 tokens [were minted](https://rinkeby.etherscan.io/address/0xF8E09031c37a62c47Aa85bD6c5dC5B45FB8058DE#events) using different proofs generated via Zokrates
 
 4. OpenSea marketplace has been setup for deployed contract & can be viewed at https://rinkeby.opensea.io/assets/decentralized-real-estate-marketplace-1
 
