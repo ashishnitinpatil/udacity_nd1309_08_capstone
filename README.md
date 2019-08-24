@@ -4,13 +4,15 @@ The capstone project is to build a decentralized real estate marketplace.
 
 ## Live deployment
 
-1. The contract ([SolnSquareVerifier](./eth-contracts/contracts/SolnSquareVerifier.sol)) is deployed on Rinkeby ETH test network at [0xF8E09031c37a62c47Aa85bD6c5dC5B45FB8058DE](https://rinkeby.etherscan.io/address/0xF8E09031c37a62c47Aa85bD6c5dC5B45FB8058DE)
+1. The contracts [SolnSquareVerifier](./eth-contracts/contracts/SolnSquareVerifier.sol) & [SquareVerifier](./eth-contracts/contracts/SquareVerifier.sol) have been deployed on Rinkeby test network
+    - SquareVerifier - [0xD1a1f68d1e0cCfE6d0dFc903147e29bEEb819746](https://rinkeby.etherscan.io/address/0xD1a1f68d1e0cCfE6d0dFc903147e29bEEb819746)
+    - SolnSquareVerifier - [0x0A86162283818aCe4dB39d9FFE57A777A7935886](https://rinkeby.etherscan.io/address/0x0A86162283818aCe4dB39d9FFE57A777A7935886)
 
 2. The deployment log is in [rinkeby_deployment.txt](./rinkeby_deployment.txt)
 
-3. 10 tokens [were minted](https://rinkeby.etherscan.io/address/0xF8E09031c37a62c47Aa85bD6c5dC5B45FB8058DE#events) using different proofs generated via Zokrates
+3. 10 tokens [were minted](https://rinkeby.etherscan.io/address/0x0A86162283818aCe4dB39d9FFE57A777A7935886#events) using different proofs generated via Zokrates
 
-4. OpenSea marketplace has been setup for deployed contract & can be viewed at https://rinkeby.opensea.io/assets/unidentified-contract-112
+4. OpenSea marketplace has been setup for deployed contract & can be viewed at https://rinkeby.opensea.io/assets/decentralized-real-estate-marketplace-1
 
 5. 5 properties have been put for sale & sold to [0xfb46d5153b469aacabb71106a5ea5efd0719eb79](https://rinkeby.opensea.io/accounts/0xfb46d5153b469aacabb71106a5ea5efd0719eb79)
 
@@ -19,6 +21,7 @@ The capstone project is to build a decentralized real estate marketplace.
 To install, download or clone the repo, then:
 
     npm install
+    cd eth-contracts/
     truffle compile
 
 ## Test
@@ -44,6 +47,8 @@ Refer to the [Zokrates howto](./zokrates/howto.md)
 * Ganache-cli (v6.6.0, core v2.7.0)
 * Web3.js (v1.2.1)
 * Solidity (solc-js v0.5.11)
+* Metamask Chrome Extension (v7.0.1)
+* Zokrates (v0.4.10) via Docker (v19.03.1)
 
 ## Project Resources
 

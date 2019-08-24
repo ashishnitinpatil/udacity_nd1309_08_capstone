@@ -1,4 +1,4 @@
-## Zocrates - Steps to reproduce
+## Zokrates - Steps to reproduce
 
 Create [square.code](./code/square/square.code) with apt verification function -
 
@@ -8,11 +8,11 @@ Change into the shared `code` directory (between local & docker) -
 
     cd code/
 
-Compile our Zocrates code -
+Compile our Zokrates code -
 
     /home/zokrates/zokrates compile -i square/square.code
 
-Setup Zocrates to generate proving & verification keys -
+Setup Zokrates to generate proving & verification keys -
 
     /home/zokrates/zokrates setup
 

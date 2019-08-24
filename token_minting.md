@@ -16,7 +16,7 @@ Call mint token on SolnSquareVerifier contract instance at deployed address -
                 ["0x0000000000000000000000000000000000000000000000000000000000000271", "0x0000000000000000000000000000000000000000000000000000000000000001"],
             );
             return instance;
-        }).then((instance) =>
+        }).then((instance) => {
             return instance.balanceOf(accounts[0]);
         }).then((balance) => {
             console.log("Token balance for", accounts[0], "is", balance.toNumber());
